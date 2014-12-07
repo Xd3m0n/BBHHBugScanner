@@ -11,4 +11,4 @@ After running the script just write the dork and it will search google and if fo
 
 It requires python 2.7 and python beautifullSoup
 
-Here is a video tutorial : http://youtu.be/fcuUgchZJLI
+Here is a video tutorial : https://www.youtube.com/watch?v=fcuUgchZJLI
