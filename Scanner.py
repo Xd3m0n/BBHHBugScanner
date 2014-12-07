@@ -8,15 +8,10 @@ from bs4 import BeautifulSoup
 term = ""
 search_key = ""
 search_link = ""
-nextPage = ""
 counter = 0
 
 class cw:
-    lightred = '\033[95m'
     blue = '\033[94m'
-    green = '\033[92m'
-    warning = '\033[93m'
-    failed = '\033[91m'
     endc = '\033[0m'
 
 
@@ -24,7 +19,7 @@ bugs = ["mysql_fetch_array()", "error in your SQL syntax;", "mysql_result()", "m
 
 
 def Search():
-    global search_link, term, counter, nextPage
+    global search_link, term, counter
 
     r = requests.get(search_link)
 
@@ -47,7 +42,6 @@ def Search():
         print("Sorry, No Data found")
         term = "q"
 
-    search_link = nextPage
     if term != "q":
         term = raw_input("More = Anykey | Quit = q : ")
         counter += 1
