@@ -12,16 +12,15 @@ nextPage = ""
 counter = 0
 
 class cw:
+    lightred = '\033[95m'
     blue = '\033[94m'
+    green = '\033[92m'
+    warning = '\033[93m'
+    failed = '\033[91m'
     endc = '\033[0m'
 
 
-bugs = ["mysql_fetch_array()"]
-bugs.append("error in your SQL syntax;")
-bugs.append("mysql_result()")
-bugs.append("mysql_num_rows()")
-bugs.append("mysql_fetch_assoc()")
-bugs.append("mysql_fetch_array()")
+bugs = ["mysql_fetch_array()", "error in your SQL syntax;", "mysql_result()", "mysql_num_rows()", "mysql_fetch_assoc()", "mysql_fetch_array()"]
 
 
 def Search():
