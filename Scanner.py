@@ -1,6 +1,6 @@
 __author__ = 'd3m0n'
 __team__ = 'Bangladesh Black HAT Hackers'
-
+__script__ = 'Module-A | Open Source'
 
 import requests, urllib
 from bs4 import BeautifulSoup
