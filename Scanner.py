@@ -1,6 +1,9 @@
 __author__ = 'd3m0n'
+__email__ = 'd3m0n.bbhh@gmail.com'
 __team__ = 'Bangladesh Black HAT Hackers'
 __script__ = 'Module-A | Open Source'
+__follow_me__ = 'https://www.facebook.com/X.d3m0n'
+__follow_us__ = 'https://www.facebook.com/bd.black.hat.hackers'
 
 import requests, urllib
 from bs4 import BeautifulSoup
